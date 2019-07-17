@@ -11,13 +11,21 @@ This project was created as an assignment for the SMU Coding Bootcamp.
 # Screen Shots
 
 ![Screen shot](app/public/images/homepage.png) 
-Index page
-___________________________________________________
+# Index page
+
+
+
 ![Screen shot 2](app/public/images/surverypage.png) 
-Survey page
-___________________________________________________
+# Survey page
+
+
+
+
 ![Screen shot 3](app/public/images/sumitpage.png) 
-Submit page
+# Submit page
+
+
+
 
 
 # Technologies Used
