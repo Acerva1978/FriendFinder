@@ -9,23 +9,26 @@ module.exports = function(app) {
 	});
 
 	app.post('/api/friends', function(req, res) {
-	
+		console.log("api/friends called");
 
 		var bestMatch = {
       		name: "",
       		img: "",
-      		friendDifference: 1000
+			friendDifference: 1000
+			  
+			  
     	};
 	  
 		
 
 		var userData = req.body;
-		var userScores = userData.score;
+		var userScores = userData.scores;
 		console.log(userScores);
 		
 		
 
-	    var totalDifference = 0;
+		var totalDifference = 0;
+		
 
 
 	    for (var i = 0; i < friends.length; i++) {
@@ -39,8 +42,8 @@ module.exports = function(app) {
 				
 
 			if (totalDifference <= bestMatch.friendDifference) {
-				bestMatch.name = friends[i].name;
-				bestMatch.img = friends[i].img;
+				bestMatch.name = friends[i].friendName;
+				bestMatch.img = friends[i].friendImg;
 				bestMatch.friendDifference = totalDifference;
 				console.log("bestMatch.name: " + bestMatch.name);
 				console.log("bestMatch.totalDifference: " + bestMatch.totalDifference);
