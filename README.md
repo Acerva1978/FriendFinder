@@ -12,10 +12,10 @@ This project was created as an assignment for the SMU Coding Bootcamp.
 
 ![Screen shot](app/public/images/homepage.png) 
 Index page
-
+___________________________________________________
 ![Screen shot 2](app/public/images/surverypage.png) 
 Survey page
-
+___________________________________________________
 ![Screen shot 3](app/public/images/sumitpage.png) 
 Submit page
 
