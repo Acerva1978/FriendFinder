@@ -6,7 +6,7 @@ This project was created as an assignment for the SMU Coding Bootcamp.
 
 # Getting Started
 
-<a href="https://mighty-escarpment-41370.herokuapp.com/">View the finished product on Heroku.</a>
+<a href="https://friendfinder80s.herokuapp.com/">View the finished product on Heroku.</a>
 
 # Screen Shots
 
