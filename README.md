@@ -6,7 +6,7 @@ This project was created as an assignment for the SMU Coding Bootcamp.
 
 # Getting Started
 
-<a href="https://friendfinder80s.herokuapp.com/">View the finished product on Heroku.</a>
+View the finished product on <a href="https://friendfinder80s.herokuapp.com/">Heroku.</a>
 
 # Screen Shots
 
